@@ -1,1038 +1,1074 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-```
-<div class="loader-bar">
-  <i></i>
-</div>
+  <meta name="description" content="Harshad Shinde - AWS Cloud and DevOps Engineer Portfolio">
 
-<p>INITIALIZING CLOUD ENVIRONMENT</p>
-```
+  <title>Harshad Shinde | AWS Cloud & DevOps</title>
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
 
-```
-<a class="logo" href="#home" style="font-size: 1.5rem;">
-  Harshad Shinde<span>_</span>
-</a>
+  <link rel="stylesheet" href="css/style.css">
+</head>
 
-<button
-  class="menu-toggle"
-  id="menuToggle"
-  aria-label="Toggle menu"
->
-  ☰
-</button>
+<body>
 
-<nav id="navMenu">
-
-  <a href="#home">HOME</a>
-
-  <a href="#about">ABOUT</a>
-
-  <a href="#skills">SKILLS</a>
-
-  <a href="#projects">PROJECTS</a>
-
-  <a href="#contact">CONTACT</a>
-
-</nav>
-
-<a class="status" href="#contact">
-  <span></span> AVAILABLE
-</a>
-```
-
-```
-<!-- ================= HOME ================= -->
-
-<section id="home" class="hero">
-
-  <!-- LEFT SIDE -->
-
-  <div class="hero-left reveal">
-
-    <h1>
-
-      AWS Cloud<br>
-
-      <span>+</span> DevOps
-
-      <em>Engineer</em>
-
-    </h1>
-
-
-    <p class="hero-text">
-
-      I design cloud infrastructure, automate deployments and build
-      reliable containerized environments using AWS, Terraform,
-      Docker, Kubernetes and CI/CD.
-
-    </p>
-
-
-    <div class="actions">
-
-      <a
-        class="btn primary"
-        href="#projects"
-      >
-        VIEW PROJECTS <b>↗</b>
-      </a>
-
-
-      <a
-        class="btn secondary"
-        href="https://github.com/harshadbshinde"
-        target="_blank"
-        rel="noopener"
-      >
-        GITHUB
-      </a>
-
+  <!-- LOADER -->
+  <div id="loader">
+    <div class="loader-logo">
+      Harshad Shinde<span>_</span>
     </div>
 
-
-    <div class="quick-stats">
-
-      <div>
-        <b>AWS</b>
-        <small>CLOUD</small>
-      </div>
-
-      <div>
-        <b>IaC</b>
-        <small>TERRAFORM</small>
-      </div>
-
-      <div>
-        <b>CI/CD</b>
-        <small>AUTOMATION</small>
-      </div>
-
-      <div>
-        <b>K8s</b>
-        <small>CONTAINERS</small>
-      </div>
-
+    <div class="loader-bar">
+      <i></i>
     </div>
 
+    <p>INITIALIZING CLOUD ENVIRONMENT</p>
   </div>
 
+  <!-- BACKGROUND -->
+  <canvas id="webgl"></canvas>
 
-  <!-- RIGHT SIDE -->
-
-  <div class="hero-right reveal">
-
-    <div class="scene-label label-a">
-      LIVE CLOUD MAP
-    </div>
-
-    <div class="scene-label label-b">
-      <span></span> SYSTEM ONLINE
-    </div>
+  <div class="noise"></div>
+  <div class="cursor-glow"></div>
 
 
-    <div class="cloud-core">
+  <!-- NAVBAR -->
+  <header class="navbar">
 
-      <div class="core-ring"></div>
+    <a class="logo" href="#home" style="font-size: 1.5rem;">
+      Harshad Shinde<span>_</span>
+    </a>
 
-      <div class="core-ring ring-2"></div>
+    <button
+      class="menu-toggle"
+      id="menuToggle"
+      aria-label="Toggle menu"
+    >
+      ☰
+    </button>
+
+    <nav id="navMenu">
+
+      <a href="#home">HOME</a>
+
+      <a href="#about">ABOUT</a>
+
+      <a href="#skills">SKILLS</a>
+
+      <a href="#projects">PROJECTS</a>
+
+      <a href="#contact">CONTACT</a>
+
+    </nav>
+
+    <a class="status" href="#contact">
+      <span></span> AVAILABLE
+    </a>
+
+  </header>
 
 
-      <div class="core-face">
+  <main>
 
-        <div class="aws-mark">
-          ☁
+    <!-- ================= HOME ================= -->
+
+    <section id="home" class="hero">
+
+      <!-- LEFT SIDE -->
+
+      <div class="hero-left reveal">
+
+        <h1>
+
+          AWS Cloud<br>
+
+          <span>+</span> DevOps
+
+          <em>Engineer</em>
+
+        </h1>
+
+
+        <p class="hero-text">
+
+          I design cloud infrastructure, automate deployments and build
+          reliable containerized environments using AWS, Terraform,
+          Docker, Kubernetes and CI/CD.
+
+        </p>
+
+
+        <div class="actions">
+
+          <a
+            class="btn primary"
+            href="#projects"
+          >
+            VIEW PROJECTS <b>↗</b>
+          </a>
+
+
+          <a
+            class="btn secondary"
+            href="https://github.com/harshadbshinde"
+            target="_blank"
+            rel="noopener"
+          >
+            GITHUB
+          </a>
+
         </div>
 
-        <strong>AWS</strong>
 
-        <small>
-          INFRASTRUCTURE
-        </small>
+        <div class="quick-stats">
+
+          <div>
+            <b>AWS</b>
+            <small>CLOUD</small>
+          </div>
+
+          <div>
+            <b>IaC</b>
+            <small>TERRAFORM</small>
+          </div>
+
+          <div>
+            <b>CI/CD</b>
+            <small>AUTOMATION</small>
+          </div>
+
+          <div>
+            <b>K8s</b>
+            <small>CONTAINERS</small>
+          </div>
+
+        </div>
 
       </div>
 
 
-      <!-- AWS SERVICES -->
+      <!-- RIGHT SIDE -->
 
-      <div class="floating-card f1">
-        <b>VPC</b>
-        <small>NETWORK</small>
+      <div class="hero-right reveal">
+
+        <div class="scene-label label-a">
+          LIVE CLOUD MAP
+        </div>
+
+        <div class="scene-label label-b">
+          <span></span> SYSTEM ONLINE
+        </div>
+
+
+        <div class="cloud-core">
+
+          <div class="core-ring"></div>
+
+          <div class="core-ring ring-2"></div>
+
+
+          <div class="core-face">
+
+            <div class="aws-mark">
+              ☁
+            </div>
+
+            <strong>AWS</strong>
+
+            <small>
+              INFRASTRUCTURE
+            </small>
+
+          </div>
+
+
+          <!-- AWS SERVICES -->
+
+          <div class="floating-card f1">
+            <b>VPC</b>
+            <small>NETWORK</small>
+          </div>
+
+
+          <div class="floating-card f2">
+            <b>EKS</b>
+            <small>KUBERNETES</small>
+          </div>
+
+
+          <div class="floating-card f3">
+            <b>EC2</b>
+            <small>COMPUTE</small>
+          </div>
+
+
+          <div class="floating-card f4">
+            <b>IAM</b>
+            <small>SECURITY</small>
+          </div>
+
+
+          <div class="floating-card f5">
+            <b>CI/CD</b>
+            <small>PIPELINE</small>
+          </div>
+
+
+          <div class="connection c1"></div>
+          <div class="connection c2"></div>
+          <div class="connection c3"></div>
+          <div class="connection c4"></div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section id="about" class="section about">
+
+      <div class="section-tag">
+        01 / ABOUT ME
       </div>
 
 
-      <div class="floating-card f2">
-        <b>EKS</b>
-        <small>KUBERNETES</small>
+      <div class="about-grid">
+
+        <div class="reveal">
+
+          <h2>
+            Cloud-minded.<br>
+            <span>Automation-driven.</span>
+          </h2>
+
+        </div>
+
+
+        <div class="about-copy reveal">
+
+          <p>
+
+            I'm <strong>Harshad Shinde</strong>, a B.Tech Electronics &
+            Telecommunication graduate focused on AWS Cloud and DevOps.
+
+          </p>
+
+
+          <p>
+
+            I enjoy turning manual infrastructure work into repeatable,
+            automated workflows and learning how production systems are
+            designed, deployed and operated.
+
+          </p>
+
+
+          <div class="terminal">
+
+            <div class="terminal-top">
+
+              <i></i>
+              <i></i>
+              <i></i>
+
+              <span>devops.sh</span>
+
+            </div>
+
+
+            <pre>
+<span>$</span> terraform plan
+<span class="ok">Plan: infrastructure ready</span>
+
+<span>$</span> kubectl get pods
+<span class="cyan">STATUS: Running</span>
+
+<span>$</span> git push origin main
+<span class="green">CI/CD: DEPLOYED ✓</span>
+            </pre>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- ================= SKILLS ================= -->
+
+    <section id="skills" class="section skills">
+
+      <div class="section-tag">
+        02 / TECH STACK
       </div>
 
 
-      <div class="floating-card f3">
-        <b>EC2</b>
-        <small>COMPUTE</small>
-      </div>
-
-
-      <div class="floating-card f4">
-        <b>IAM</b>
-        <small>SECURITY</small>
-      </div>
-
-
-      <div class="floating-card f5">
-        <b>CI/CD</b>
-        <small>PIPELINE</small>
-      </div>
-
-
-      <div class="connection c1"></div>
-      <div class="connection c2"></div>
-      <div class="connection c3"></div>
-      <div class="connection c4"></div>
-
-    </div>
-
-  </div>
-
-</section>
-
-
-
-<!-- ================= ABOUT ================= -->
-
-<section id="about" class="section about">
-
-  <div class="section-tag">
-    01 / ABOUT ME
-  </div>
-
-
-  <div class="about-grid">
-
-    <div class="reveal">
-
-      <h2>
-        Cloud-minded.<br>
-        <span>Automation-driven.</span>
+      <h2 class="section-title reveal">
+        Tools I build with.
       </h2>
 
-    </div>
+
+      <div class="skills-grid">
 
 
-    <div class="about-copy reveal">
+        <!-- AWS -->
 
-      <p>
+        <article class="skill-card reveal">
 
-        I'm <strong>Harshad Shinde</strong>, a B.Tech Electronics &
-        Telecommunication graduate focused on AWS Cloud and DevOps.
+          <span class="skill-number">
+            01
+          </span>
 
-      </p>
+          <div class="skill-symbol">
+            AWS
+          </div>
+
+          <h3>
+            Amazon Web Services
+          </h3>
+
+          <p>
+            EC2 · VPC · IAM · EKS · EFS · S3 · CloudWatch · ALB
+          </p>
+
+          <div class="skill-line"></div>
+
+        </article>
 
 
-      <p>
 
-        I enjoy turning manual infrastructure work into repeatable,
-        automated workflows and learning how production systems are
-        designed, deployed and operated.
+        <!-- TERRAFORM -->
 
-      </p>
+        <article class="skill-card reveal">
+
+          <span class="skill-number">
+            02
+          </span>
+
+          <div class="skill-symbol">
+            TF
+          </div>
+
+          <h3>
+            Terraform
+          </h3>
+
+          <p>
+            Infrastructure as Code for VPC, IAM, EKS, node groups and add-ons.
+          </p>
+
+          <div class="skill-line"></div>
+
+        </article>
 
 
-      <div class="terminal">
 
-        <div class="terminal-top">
+        <!-- DOCKER -->
 
-          <i></i>
-          <i></i>
-          <i></i>
+        <article class="skill-card reveal">
 
-          <span>devops.sh</span>
+          <span class="skill-number">
+            03
+          </span>
+
+          <div class="skill-symbol">
+            DK
+          </div>
+
+          <h3>
+            Docker
+          </h3>
+
+          <p>
+            Container images, Dockerfiles, Docker Hub and automated builds.
+          </p>
+
+          <div class="skill-line"></div>
+
+        </article>
+
+
+
+        <!-- KUBERNETES -->
+
+        <article class="skill-card reveal">
+
+          <span class="skill-number">
+            04
+          </span>
+
+          <div class="skill-symbol">
+            K8
+          </div>
+
+          <h3>
+            Kubernetes
+          </h3>
+
+          <p>
+            EKS, Deployments, Services, NetworkPolicies,
+            VPC CNI and EFS CSI.
+          </p>
+
+          <div class="skill-line"></div>
+
+        </article>
+
+
+
+        <!-- CI/CD -->
+
+        <article class="skill-card reveal">
+
+          <span class="skill-number">
+            05
+          </span>
+
+          <div class="skill-symbol">
+            CI
+          </div>
+
+          <h3>
+            CI / CD
+          </h3>
+
+          <p>
+            GitHub Actions and Jenkins workflows for automated deployment.
+          </p>
+
+          <div class="skill-line"></div>
+
+        </article>
+
+
+
+        <!-- MONITORING -->
+
+        <article class="skill-card reveal">
+
+          <span class="skill-number">
+            06
+          </span>
+
+          <div class="skill-symbol">
+            MON
+          </div>
+
+          <h3>
+            Monitoring
+          </h3>
+
+          <p>
+            Prometheus, Grafana, Linux, Git, GitHub, Bash and Python.
+          </p>
+
+          <div class="skill-line"></div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- ================= PROJECTS ================= -->
+
+    <section id="projects" class="section projects">
+
+      <div class="section-tag">
+        03 / PROJECTS
+      </div>
+
+
+      <div class="projects-heading">
+
+        <h2 class="section-title reveal">
+
+          Infrastructure<br>
+
+          <span>in action.</span>
+
+        </h2>
+
+
+        <p class="reveal">
+
+          Selected hands-on projects showing my AWS and DevOps workflow.
+
+        </p>
+
+      </div>
+
+
+
+      <!-- PROJECT 1 -->
+
+      <div class="project project-one reveal">
+
+        <div class="project-info">
+
+          <span>
+            PROJECT 01 / AWS + TERRAFORM
+          </span>
+
+
+          <h3>
+
+            AWS EKS<br>
+
+            <em>Cluster</em>
+
+          </h3>
+
+
+          <p>
+
+            Provisioned AWS VPC, EKS cluster, IAM roles and worker nodes
+            using Terraform. Configured VPC CNI, Kubernetes NetworkPolicies
+            and Amazon EFS CSI.
+
+          </p>
+
+
+          <div class="chips">
+
+            <b>AWS</b>
+            <b>Terraform</b>
+            <b>EKS</b>
+            <b>Kubernetes</b>
+            <b>EFS</b>
+
+          </div>
 
         </div>
 
 
-        <pre>
-```
+        <div class="project-visual eks">
 
-$ terraform plan
-Plan: infrastructure ready
+          <div class="pv-cloud">
+            ☁
+          </div>
 
-$ kubectl get pods
-STATUS: Running
+          <div class="pv-box p1">
+            VPC
+          </div>
 
-$ git push origin main
-CI/CD: DEPLOYED ✓
+          <div class="pv-box p2">
+            EKS
+          </div>
 
+          <div class="pv-box p3">
+            EFS
+          </div>
 
-```
-      </div>
+          <div class="pv-box p4">
+            IAM
+          </div>
 
-    </div>
+          <div class="pv-line l1"></div>
+          <div class="pv-line l2"></div>
+          <div class="pv-line l3"></div>
 
-  </div>
-
-</section>
-
-
-
-<!-- ================= SKILLS ================= -->
-
-<section id="skills" class="section skills">
-
-  <div class="section-tag">
-    02 / TECH STACK
-  </div>
-
-
-  <h2 class="section-title reveal">
-    Tools I build with.
-  </h2>
-
-
-  <div class="skills-grid">
-
-
-    <!-- AWS -->
-
-    <article class="skill-card reveal">
-
-      <span class="skill-number">
-        01
-      </span>
-
-      <div class="skill-symbol">
-        AWS
-      </div>
-
-      <h3>
-        Amazon Web Services
-      </h3>
-
-      <p>
-        EC2 · VPC · IAM · EKS · EFS · S3 · CloudWatch · ALB
-      </p>
-
-      <div class="skill-line"></div>
-
-    </article>
-
-
-
-    <!-- TERRAFORM -->
-
-    <article class="skill-card reveal">
-
-      <span class="skill-number">
-        02
-      </span>
-
-      <div class="skill-symbol">
-        TF
-      </div>
-
-      <h3>
-        Terraform
-      </h3>
-
-      <p>
-        Infrastructure as Code for VPC, IAM, EKS, node groups and add-ons.
-      </p>
-
-      <div class="skill-line"></div>
-
-    </article>
-
-
-
-    <!-- DOCKER -->
-
-    <article class="skill-card reveal">
-
-      <span class="skill-number">
-        03
-      </span>
-
-      <div class="skill-symbol">
-        DK
-      </div>
-
-      <h3>
-        Docker
-      </h3>
-
-      <p>
-        Container images, Dockerfiles, Docker Hub and automated builds.
-      </p>
-
-      <div class="skill-line"></div>
-
-    </article>
-
-
-
-    <!-- KUBERNETES -->
-
-    <article class="skill-card reveal">
-
-      <span class="skill-number">
-        04
-      </span>
-
-      <div class="skill-symbol">
-        K8
-      </div>
-
-      <h3>
-        Kubernetes
-      </h3>
-
-      <p>
-        EKS, Deployments, Services, NetworkPolicies,
-        VPC CNI and EFS CSI.
-      </p>
-
-      <div class="skill-line"></div>
-
-    </article>
-
-
-
-    <!-- CI/CD -->
-
-    <article class="skill-card reveal">
-
-      <span class="skill-number">
-        05
-      </span>
-
-      <div class="skill-symbol">
-        CI
-      </div>
-
-      <h3>
-        CI / CD
-      </h3>
-
-      <p>
-        GitHub Actions and Jenkins workflows for automated deployment.
-      </p>
-
-      <div class="skill-line"></div>
-
-    </article>
-
-
-
-    <!-- MONITORING -->
-
-    <article class="skill-card reveal">
-
-      <span class="skill-number">
-        06
-      </span>
-
-      <div class="skill-symbol">
-        MON
-      </div>
-
-      <h3>
-        Monitoring
-      </h3>
-
-      <p>
-        Prometheus, Grafana, Linux, Git, GitHub, Bash and Python.
-      </p>
-
-      <div class="skill-line"></div>
-
-    </article>
-
-  </div>
-
-</section>
-
-
-
-<!-- ================= PROJECTS ================= -->
-
-<section id="projects" class="section projects">
-
-  <div class="section-tag">
-    03 / PROJECTS
-  </div>
-
-
-  <div class="projects-heading">
-
-    <h2 class="section-title reveal">
-
-      Infrastructure<br>
-
-      <span>in action.</span>
-
-    </h2>
-
-
-    <p class="reveal">
-
-      Selected hands-on projects showing my AWS and DevOps workflow.
-
-    </p>
-
-  </div>
-
-
-
-  <!-- PROJECT 1 -->
-
-  <div class="project project-one reveal">
-
-    <div class="project-info">
-
-      <span>
-        PROJECT 01 / AWS + TERRAFORM
-      </span>
-
-
-      <h3>
-
-        AWS EKS<br>
-
-        <em>Cluster</em>
-
-      </h3>
-
-
-      <p>
-
-        Provisioned AWS VPC, EKS cluster, IAM roles and worker nodes
-        using Terraform. Configured VPC CNI, Kubernetes NetworkPolicies
-        and Amazon EFS CSI.
-
-      </p>
-
-
-      <div class="chips">
-
-        <b>AWS</b>
-        <b>Terraform</b>
-        <b>EKS</b>
-        <b>Kubernetes</b>
-        <b>EFS</b>
-
-      </div>
-
-    </div>
-
-
-    <div class="project-visual eks">
-
-      <div class="pv-cloud">
-        ☁
-      </div>
-
-      <div class="pv-box p1">
-        VPC
-      </div>
-
-      <div class="pv-box p2">
-        EKS
-      </div>
-
-      <div class="pv-box p3">
-        EFS
-      </div>
-
-      <div class="pv-box p4">
-        IAM
-      </div>
-
-      <div class="pv-line l1"></div>
-      <div class="pv-line l2"></div>
-      <div class="pv-line l3"></div>
-
-    </div>
-
-  </div>
-
-
-
-  <!-- PROJECT 2 -->
-
-  <div class="project project-two reveal">
-
-    <div class="project-info">
-
-      <span>
-        PROJECT 02 / GITHUB ACTIONS
-      </span>
-
-
-      <h3>
-
-        Terraform<br>
-
-        <em>Cloud Pipeline</em>
-
-      </h3>
-
-
-      <p>
-
-        Automated Terraform infrastructure deployment with GitHub Actions:
-        checkout, AWS authentication, init, plan and apply.
-
-      </p>
-
-
-      <div class="chips">
-
-        <b>GitHub Actions</b>
-        <b>Terraform</b>
-        <b>AWS</b>
-        <b>Linux</b>
-
-      </div>
-
-    </div>
-
-
-    <div class="project-visual pipeline">
-
-      <div class="pipe-node">
-
-        GIT<br>
-
-        <small>PUSH</small>
-
-      </div>
-
-
-      <div class="pipe-arrow">
-        →
-      </div>
-
-
-      <div class="pipe-node active">
-
-        ACTIONS<br>
-
-        <small>BUILD</small>
-
-      </div>
-
-
-      <div class="pipe-arrow">
-        →
-      </div>
-
-
-      <div class="pipe-node">
-
-        TF<br>
-
-        <small>APPLY</small>
-
-      </div>
-
-
-      <div class="pipe-arrow">
-        →
-      </div>
-
-
-      <div class="pipe-node aws-node">
-
-        AWS<br>
-
-        <small>LIVE</small>
-
-      </div>
-
-    </div>
-
-  </div>
-
-
-
-  <!-- PROJECT 3 -->
-
-  <div class="project project-three reveal">
-
-    <div class="project-info">
-
-      <span>
-        PROJECT 03 / DOCKER + CI/CD
-      </span>
-
-
-      <h3>
-
-        Container<br>
-
-        <em>Automation</em>
-
-      </h3>
-
-
-      <p>
-
-        Created Docker images and automated build and push workflows
-        using GitHub Actions and Docker Hub.
-
-      </p>
-
-
-      <div class="chips">
-
-        <b>Docker</b>
-        <b>Docker Hub</b>
-        <b>GitHub Actions</b>
-
-      </div>
-
-    </div>
-
-
-    <div class="project-visual docker">
-
-      <div class="cube">
-
-        <div>
-          DOCKER
         </div>
 
       </div>
 
-      <div class="scan-line"></div>
-
-    </div>
-
-  </div>
 
 
+      <!-- PROJECT 2 -->
 
-  <!-- PROJECT 4 -->
+      <div class="project project-two reveal">
 
-  <div class="project project-four reveal">
+        <div class="project-info">
 
-    <div class="project-info">
-
-      <span>
-        PROJECT 04 / PYTHON
-      </span>
-
-
-      <h3>
-
-        Face Recognition<br>
-
-        <em>Attendance</em>
-
-      </h3>
+          <span>
+            PROJECT 02 / GITHUB ACTIONS
+          </span>
 
 
-      <p>
+          <h3>
 
-        Python-based attendance management system using face recognition
-        with automatic attendance recording.
+            Terraform<br>
 
-      </p>
+            <em>Cloud Pipeline</em>
+
+          </h3>
 
 
-      <div class="chips">
+          <p>
 
-        <b>Python</b>
-        <b>OpenCV</b>
-        <b>Face Recognition</b>
+            Automated Terraform infrastructure deployment with GitHub Actions:
+            checkout, AWS authentication, init, plan and apply.
+
+          </p>
+
+
+          <div class="chips">
+
+            <b>GitHub Actions</b>
+            <b>Terraform</b>
+            <b>AWS</b>
+            <b>Linux</b>
+
+          </div>
+
+        </div>
+
+
+        <div class="project-visual pipeline">
+
+          <div class="pipe-node">
+
+            GIT<br>
+
+            <small>PUSH</small>
+
+          </div>
+
+
+          <div class="pipe-arrow">
+            →
+          </div>
+
+
+          <div class="pipe-node active">
+
+            ACTIONS<br>
+
+            <small>BUILD</small>
+
+          </div>
+
+
+          <div class="pipe-arrow">
+            →
+          </div>
+
+
+          <div class="pipe-node">
+
+            TF<br>
+
+            <small>APPLY</small>
+
+          </div>
+
+
+          <div class="pipe-arrow">
+            →
+          </div>
+
+
+          <div class="pipe-node aws-node">
+
+            AWS<br>
+
+            <small>LIVE</small>
+
+          </div>
+
+        </div>
 
       </div>
 
-    </div>
 
 
-    <div class="project-visual code-card">
+      <!-- PROJECT 3 -->
 
-      <pre>
-```
+      <div class="project project-three reveal">
 
+        <div class="project-info">
+
+          <span>
+            PROJECT 03 / DOCKER + CI/CD
+          </span>
+
+
+          <h3>
+
+            Container<br>
+
+            <em>Automation</em>
+
+          </h3>
+
+
+          <p>
+
+            Created Docker images and automated build and push workflows
+            using GitHub Actions and Docker Hub.
+
+          </p>
+
+
+          <div class="chips">
+
+            <b>Docker</b>
+            <b>Docker Hub</b>
+            <b>GitHub Actions</b>
+
+          </div>
+
+        </div>
+
+
+        <div class="project-visual docker">
+
+          <div class="cube">
+
+            <div>
+              DOCKER
+            </div>
+
+          </div>
+
+          <div class="scan-line"></div>
+
+        </div>
+
+      </div>
+
+
+
+      <!-- PROJECT 4 -->
+
+      <div class="project project-four reveal">
+
+        <div class="project-info">
+
+          <span>
+            PROJECT 04 / PYTHON
+          </span>
+
+
+          <h3>
+
+            Face Recognition<br>
+
+            <em>Attendance</em>
+
+          </h3>
+
+
+          <p>
+
+            Python-based attendance management system using face recognition
+            with automatic attendance recording.
+
+          </p>
+
+
+          <div class="chips">
+
+            <b>Python</b>
+            <b>OpenCV</b>
+            <b>Face Recognition</b>
+
+          </div>
+
+        </div>
+
+
+        <div class="project-visual code-card">
+
+          <pre>
 face = detect(frame)
 
 if face:
-student = recognize(face)
-attendance.mark(student)
-save()
+    student = recognize(face)
+    attendance.mark(student)
+    save()
+          </pre>
 
+        </div>
 
-```
-    </div>
+      </div>
 
-  </div>
+    </section>
 
-</section>
 
 
+    <!-- ================= WORKFLOW ================= -->
 
-<!-- ================= WORKFLOW ================= -->
+    <section class="section pipeline-section">
 
-<section class="section pipeline-section">
+      <div class="section-tag">
+        04 / WORKFLOW
+      </div>
 
-  <div class="section-tag">
-    04 / WORKFLOW
-  </div>
 
+      <h2 class="section-title reveal">
+        Commit → Cloud.
+      </h2>
 
-  <h2 class="section-title reveal">
-    Commit → Cloud.
-  </h2>
 
+      <div class="workflow reveal">
 
-  <div class="workflow reveal">
 
+        <div class="workflow-step">
 
-    <div class="workflow-step">
+          <span>01</span>
+          <b>GIT</b>
+          <small>CODE</small>
 
-      <span>01</span>
-      <b>GIT</b>
-      <small>CODE</small>
+        </div>
 
-    </div>
 
+        <i>→</i>
 
-    <i>→</i>
 
+        <div class="workflow-step">
 
-    <div class="workflow-step">
+          <span>02</span>
+          <b>GITHUB</b>
+          <small>SOURCE</small>
 
-      <span>02</span>
-      <b>GITHUB</b>
-      <small>SOURCE</small>
+        </div>
 
-    </div>
 
+        <i>→</i>
 
-    <i>→</i>
 
+        <div class="workflow-step active-step">
 
-    <div class="workflow-step active-step">
+          <span>03</span>
+          <b>ACTIONS</b>
+          <small>CI/CD</small>
 
-      <span>03</span>
-      <b>ACTIONS</b>
-      <small>CI/CD</small>
+        </div>
 
-    </div>
 
+        <i>→</i>
 
-    <i>→</i>
 
+        <div class="workflow-step">
 
-    <div class="workflow-step">
+          <span>04</span>
+          <b>TERRAFORM</b>
+          <small>IaC</small>
 
-      <span>04</span>
-      <b>TERRAFORM</b>
-      <small>IaC</small>
+        </div>
 
-    </div>
 
+        <i>→</i>
 
-    <i>→</i>
 
+        <div class="workflow-step">
 
-    <div class="workflow-step">
+          <span>05</span>
+          <b>AWS</b>
+          <small>INFRA</small>
 
-      <span>05</span>
-      <b>AWS</b>
-      <small>INFRA</small>
+        </div>
 
-    </div>
 
+        <i>→</i>
 
-    <i>→</i>
 
+        <div class="workflow-step">
 
-    <div class="workflow-step">
+          <span>06</span>
+          <b>EKS</b>
+          <small>RUN</small>
 
-      <span>06</span>
-      <b>EKS</b>
-      <small>RUN</small>
+        </div>
 
-    </div>
+      </div>
 
-  </div>
+    </section>
 
-</section>
 
 
+    <!-- ================= EDUCATION ================= -->
 
-<!-- ================= EDUCATION ================= -->
+    <section class="section education">
 
-<section class="section education">
+      <div class="section-tag">
+        05 / EDUCATION
+      </div>
 
-  <div class="section-tag">
-    05 / EDUCATION
-  </div>
 
+      <div class="education-grid">
 
-  <div class="education-grid">
 
+        <div class="edu-card reveal">
 
-    <div class="edu-card reveal">
+          <small>
+            2026
+          </small>
 
-      <small>
-        2026
-      </small>
+          <h3>
+            B.Tech — Electronics & Telecommunication
+          </h3>
 
-      <h3>
-        B.Tech — Electronics & Telecommunication
-      </h3>
+          <p>
+            TPCT'S College of Engineering, Dharashiv
+          </p>
 
-      <p>
-        TPCT'S College of Engineering, Dharashiv
-      </p>
+          <b>
+            CGPA 7.0
+          </b>
 
-      <b>
-        CGPA 7.0
-      </b>
+        </div>
 
-    </div>
 
+        <div class="edu-card reveal">
 
-    <div class="edu-card reveal">
+          <small>
+            2022
+          </small>
 
-      <small>
-        2022
-      </small>
+          <h3>
+            12th
+          </h3>
 
-      <h3>
-        12th
-      </h3>
+          <p>
+            Shripatro Bhosale Highschool, Dharashiv
+          </p>
 
-      <p>
-        Shripatro Bhosale Highschool, Dharashiv
-      </p>
+          <b>
+            82.00%
+          </b>
 
-      <b>
-        82.00%
-      </b>
+        </div>
 
-    </div>
 
+        <div class="edu-card reveal">
 
-    <div class="edu-card reveal">
+          <small>
+            2020
+          </small>
 
-      <small>
-        2020
-      </small>
+          <h3>
+            10th
+          </h3>
 
-      <h3>
-        10th
-      </h3>
+          <p>
+            Shripatro Bhosale Highschool, Dharashiv
+          </p>
 
-      <p>
-        Shripatro Bhosale Highschool, Dharashiv
-      </p>
+          <b>
+            87.00%
+          </b>
 
-      <b>
-        87.00%
-      </b>
+        </div>
 
-    </div>
+      </div>
 
-  </div>
+    </section>
 
-</section>
 
 
+    <!-- ================= CONTACT ================= -->
 
-<!-- ================= CONTACT ================= -->
+    <section id="contact" class="section contact">
 
-<section id="contact" class="section contact">
+      <div class="contact-box reveal">
 
-  <div class="contact-box reveal">
+        <div class="section-tag">
+          06 / CONTACT
+        </div>
 
-    <div class="section-tag">
-      06 / CONTACT
-    </div>
 
+        <h2>
 
-    <h2>
+          Let's build the<br>
 
-      Let's build the<br>
+          <span>next deployment.</span>
 
-      <span>next deployment.</span>
+        </h2>
 
-    </h2>
 
+        <p>
+
+          I'm looking for an opportunity to work on real-world AWS
+          infrastructure, automation and DevOps.
+
+        </p>
+
+
+        <div class="contact-actions">
+
+
+          <a
+            class="btn primary"
+            href="mailto:harshadbshinde8754@gmail.com"
+          >
+            EMAIL ME ↗
+          </a>
+
+
+          <a
+            class="btn secondary"
+            href="https://github.com/harshadbshinde"
+            target="_blank"
+            rel="noopener"
+          >
+            GITHUB ↗
+          </a>
+
+
+          <a
+            class="btn secondary"
+            href="https://www.linkedin.com/"
+            target="_blank"
+            rel="noopener"
+          >
+            LINKEDIN ↗
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+
+  <!-- ================= FOOTER ================= -->
+
+  <footer>
+
+    <span>
+      Harshad Shinde_
+    </span>
 
     <p>
-
-      I'm looking for an opportunity to work on real-world AWS
-      infrastructure, automation and DevOps.
-
+      Harshad Shinde · AWS Cloud & DevOps · 2026
     </p>
 
+    <span>
+      BUILD / AUTOMATE / DEPLOY
+    </span>
 
-    <div class="contact-actions">
-
-
-      <a
-        class="btn primary"
-        href="mailto:harshadbshinde8754@gmail.com"
-      >
-        EMAIL ME ↗
-
-        <a
-```
-
-class="btn secondary"
-href="tel:+91XXXXXXXXXX"
-
->
-
-PHONE ↗
+  </footer>
 
 
 
-```
-      <a
-        class="btn secondary"
-        href="https://github.com/harshadbshinde"
-        target="_blank"
-        rel="noopener"
-      >
-        GITHUB ↗
-      </a>
+  <!-- THREE.JS -->
 
+  <script src="https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.min.js"></script>
 
-      <a
-        class="btn secondary"
-        href="https://www.linkedin.com/"
-        target="_blank"
-        rel="noopener"
-      >
-        LINKEDIN ↗
-      </a>
+  <script src="js/script.js"></script>
 
-    </div>
-
-  </div>
-
-</section>
-```
-
-
-
-```
-<span>
-  Harshad Shinde_
-</span>
-
-<p>
-  Harshad Shinde · AWS Cloud & DevOps · 2026
-</p>
-
-<span>
-  BUILD / AUTOMATE / DEPLOY
-</span>
-```
+</body>
+</html>
