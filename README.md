@@ -7,7 +7,7 @@ A modern personal portfolio showcasing my skills, projects, education, and hands
 ## 🌐 Live Portfolio
 
 **Portfolio:**  
-https://harshadbshinde.github.io/portfolio/
+https://harshadbshinde.github.io/harshad-portfolio/
 
 ---
 
