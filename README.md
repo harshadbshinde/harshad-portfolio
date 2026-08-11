@@ -1,11 +1,8 @@
 # Harshad Shinde — AWS Cloud & DevOps Portfolio
 
-![Portfolio](https://img.shields.io/badge/Portfolio-AWS%20Cloud%20%26%20DevOps-orange)
-![AWS](https://img.shields.io/badge/AWS-Cloud-orange)
-![Terraform](https://img.shields.io/badge/Terraform-IaC-7B42BC)
-![Docker](https://img.shields.io/badge/Docker-Containers-2496ED)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-EKS-326CE5)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-CI%2FCD-2088FF)
+A modern personal portfolio showcasing my skills, projects, education, and hands-on experience in **AWS Cloud and DevOps**.
+
+---
 
 ## 🌐 Live Portfolio
 
@@ -18,7 +15,7 @@ https://harshadbshinde.github.io/portfolio/
 
 Hi, I'm **Harshad Shinde**, a B.Tech Electronics & Telecommunication graduate focused on **AWS Cloud and DevOps**.
 
-I enjoy building cloud infrastructure, automating deployments, working with containers and learning how production systems are designed, deployed and operated.
+I enjoy building cloud infrastructure, automating deployments, working with containers, and learning how production systems are designed, deployed, and operated.
 
 My main areas of interest include:
 
@@ -33,9 +30,9 @@ My main areas of interest include:
 
 ---
 
-## 🛠️ Technical Skills
+# 🛠️ Technical Skills
 
-### ☁️ AWS
+## ☁️ AWS
 
 - EC2
 - VPC
@@ -46,7 +43,7 @@ My main areas of interest include:
 - CloudWatch
 - Application Load Balancer (ALB)
 
-### 🏗️ Infrastructure as Code
+## 🏗️ Infrastructure as Code
 
 - Terraform
 - Terraform Modules
@@ -54,7 +51,7 @@ My main areas of interest include:
 - Infrastructure Provisioning
 - AWS Infrastructure Automation
 
-### 🐳 Containers
+## 🐳 Containers
 
 - Docker
 - Dockerfiles
@@ -62,7 +59,7 @@ My main areas of interest include:
 - Docker Hub
 - Container Management
 
-### ☸️ Kubernetes
+## ☸️ Kubernetes
 
 - Amazon EKS
 - Pods
@@ -72,7 +69,7 @@ My main areas of interest include:
 - AWS VPC CNI
 - EFS CSI Driver
 
-### 🔄 CI/CD
+## 🔄 CI/CD
 
 - GitHub Actions
 - Jenkins
@@ -81,15 +78,16 @@ My main areas of interest include:
 - AWS Authentication
 - Automated Infrastructure Deployment
 
-### 📊 Monitoring
+## 📊 Monitoring
 
 - Prometheus
 - Grafana
 - CloudWatch
 
-### 💻 Other Technologies
+## 💻 Other Technologies
 
 - Linux
+- Windows
 - Git
 - GitHub
 - Bash
@@ -130,37 +128,44 @@ Provisioned an AWS EKS infrastructure using Terraform.
 
 ---
 
-## 2. Terraform Cloud Pipeline using GitHub Actions
+## 2. AWS Infrastructure Automation using Terraform & GitHub Actions
 
-Automated Terraform infrastructure deployment using GitHub Actions.
+Automated AWS infrastructure provisioning and deployment using **Terraform and GitHub Actions**.
+
+### Technologies
+
+- AWS
+- Terraform
+- GitHub Actions
+- Git
+- Linux
+- IAM
+- VPC
+- EC2
+- Security Groups
+- S3
+
+### Work Performed
+
+- Provisioned AWS infrastructure using Terraform
+- Configured Amazon VPC
+- Configured public and private subnets
+- Configured route tables
+- Configured Internet Gateway
+- Configured NAT Gateway
+- Provisioned EC2 instances
+- Configured Security Groups
+- Configured IAM roles and policies
+- Automated Terraform `init`, `plan`, and `apply`
+- Configured AWS authentication using GitHub Secrets
+- Used Git and GitHub for infrastructure automation
 
 ### Pipeline
 
 ```text
 Git Push
-   ↓
+    ↓
 GitHub Actions
-   ↓
-AWS Authentication
-   ↓
-Terraform Init
-   ↓
-Terraform Plan
-   ↓
-Terraform Apply
-   ↓
-AWS Infrastructure
-
-Technologies
-GitHub Actions
-Terraform
-AWS
-Linux
-Git
-
-The pipeline automates:
-
-Checkout
     ↓
 AWS Authentication
     ↓
@@ -171,7 +176,10 @@ Terraform Init
 Terraform Plan
     ↓
 Terraform Apply
-3. Docker Image Build and Push using GitHub Actions
+    ↓
+AWS Infrastructure
+
+3. Docker Image Build & Push using GitHub Actions
 
 Created Docker images and automated the image build and push process using GitHub Actions.
 
@@ -179,34 +187,43 @@ Technologies
 Docker
 Docker Hub
 GitHub Actions
-Linux
 Git
+GitHub
+Linux
+Work Performed
+Containerized a React application using Docker
+Created Docker images
+Created a GitHub Actions CI/CD workflow
+Configured Docker Hub authentication using GitHub Secrets
+Automated Docker image publishing to Docker Hub
 Workflow
 Source Code
-    ↓
+     ↓
 Git Push
-    ↓
+     ↓
 GitHub Actions
-    ↓
+     ↓
 Docker Build
-    ↓
+     ↓
 Docker Image
-    ↓
+     ↓
 Docker Hub
 4. Student & Employee Attendance Management System
 
-Python-based attendance management system using face recognition.
+A Python-based attendance management system using face recognition.
 
 Technologies
 Python
 OpenCV
 Face Recognition
+Excel
 Features
 Face detection
 Face recognition
-Student identification
+Student and employee identification
 Automatic attendance recording
-Attendance data storage
+Attendance data storage in Excel
+Reduced manual attendance effort
 🔄 DevOps Workflow
 
 My portfolio demonstrates a workflow based on:
@@ -214,7 +231,7 @@ My portfolio demonstrates a workflow based on:
        CODE
         │
         ▼
-      GIT
+       GIT
         │
         ▼
      GITHUB
@@ -243,30 +260,43 @@ TPCT'S College of Engineering, Dharashiv
 
 Passing Year: 2026
 CGPA: 7.0
-12th
+12th — Higher Secondary Education
 
 Shripatro Bhosale Highschool, Dharashiv
 
 Passing Year: 2022
 Percentage: 82.00%
-10th
+10th — Secondary School Education
 
 Shripatro Bhosale Highschool, Dharashiv
 
 Passing Year: 2020
 Percentage: 87.00%
+📄 Resume
+
+My resume is embedded directly inside the portfolio index.html.
+
+You can download the resume from the:
+
+DOWNLOAD RESUME button on the portfolio website.
+
+No separate resume PDF file is required in the GitHub repository.
+
 📁 Portfolio Structure
 portfolio/
 │
 ├── index.html
-├── style.css
-├── script.js
 │
-├── assets/
-│   ├── images/
-│   └── icons/
+├── css/
+│   └── style.css
+│
+├── js/
+│   └── script.js
 │
 └── README.md
+
+The resume PDF is embedded inside index.html, so it does not need to be stored as a separate repository file.
+
 🌐 Deployment
 
 This portfolio is deployed using GitHub Pages.
@@ -290,7 +320,6 @@ GitHub Pages
       ↓
 Live Portfolio
 📞 Contact
-
 Harshad Shinde
 
 📧 Email:
@@ -302,12 +331,15 @@ harshadbshinde8754@gmail.com
 💻 GitHub:
 https://github.com/harshadbshinde
 
+🔗 LinkedIn:
+https://www.linkedin.com/in/harshad-shinde-a8889b25a/
+
 🌐 Portfolio:
 https://harshadbshinde.github.io/portfolio/
 
 🎯 Career Objective
 
-I am looking for an opportunity as a Cloud / DevOps Engineer where I can apply my knowledge of AWS, Terraform, Docker, Kubernetes, Linux and CI/CD while continuing to learn and contribute to real-world infrastructure and automation projects.
+I am looking for an opportunity as a Cloud / DevOps Engineer where I can apply my knowledge of AWS, Terraform, Docker, Kubernetes, Linux, and CI/CD while continuing to learn and contribute to real-world infrastructure and automation projects.
 
 ⭐ Technologies
 AWS
@@ -325,26 +357,12 @@ Python
 Prometheus
 Grafana
 YAML
+
 📌 Currently Learning
 Advanced AWS
 Kubernetes
 Terraform
 CI/CD
 Cloud Monitoring
-DevOps best practices
-Production infrastructure
-⭐ Support
-
-If you find this portfolio useful or interesting, consider giving the repository a ⭐ on GitHub.
-
-BUILD / AUTOMATE / DEPLOY 🚀
-
-
-### One important correction
-
-For your **GitHub repository README**, I recommend keeping the portfolio link near the top:
-
-```markdown
-## 🌐 Live Portfolio
-
-https://harshadbshinde.github.io/portfolio/
+DevOps Best Practices
+Production Infrastructure
